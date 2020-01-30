@@ -48,4 +48,5 @@ def compile_data(tickers):
     print(main_df.head())
     io.save_data_to_csv(main_df, os.path.join('data', 'sp500_joined_closes.csv'))
 
+
 compile_data(sp500tickers_path)
